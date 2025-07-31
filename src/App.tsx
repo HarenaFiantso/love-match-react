@@ -1,4 +1,4 @@
-import SplitText from "./components/SplitText";
+import SplitText from './components/SplitText';
 
 export default function App() {
   return (
