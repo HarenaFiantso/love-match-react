@@ -1,9 +1,8 @@
-import Form from './components/Form';
-
+import LoveForms from './components/LoveForms';
 export default function App() {
   return (
-    <>
-      <Form />
-    </>
+    <main className="w-full h-screen flex items-center justify-center bg-pink-100">
+      <LoveForms />
+    </main>
   );
 }
