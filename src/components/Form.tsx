@@ -6,13 +6,13 @@ const Form = () => {
         <div className="text-3xl mb-3">Love Match</div>
         <div className="text-gray-500 mb-10">Découvrez votre compatibilité</div>
         <input
-          className="border-slate-200 focus:outline-pink-200 border w-full py-3 rounded-md pl-5"
+          className="border-slate-200 bg-slate-200/20 focus:outline-pink-200 border w-full py-3 rounded-md pl-5"
           type="text"
           placeholder="Premier prénom"
         />
         <div className="text-xl my-3">❤️</div>
         <input
-          className="border-slate-200 focus:outline-pink-200 border w-full py-3 rounded-md pl-5 mb-10"
+          className="border-slate-200 bg-slate-200/20 focus:outline-pink-200 border w-full py-3 rounded-md pl-5 mb-10"
           type="text"
           placeholder="Deuxième prénom"
         />
