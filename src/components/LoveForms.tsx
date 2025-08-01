@@ -39,7 +39,8 @@ export default function LoveForms() {
           transition={{ duration: 0.7, ease: 'easeInOut' }}
           className="flex h-[550px] items-center justify-center flex-col w-[400px] bg-white px-8 py-10 rounded-2xl shadow-2xl shadow-pink-200"
         >
-          <motion.div animate={{ rotate: [0, 360] }}
+          <motion.div
+            animate={{ rotate: [0, 360] }}
             transition={{ repeat: Infinity, duration: 2, ease: 'linear' }}
             className="text-6xl"
           >
@@ -64,8 +65,12 @@ export default function LoveForms() {
             transition={{ repeat: Infinity, duration: 1.2, ease: 'easeInOut' }}
           />
           <div className="pb-3">Love match :</div>
-          <div className="text-2xl mb-5 text-center">{firstName} & {secondName}</div>
-          <div className="text-8xl my-5 font-bold bg-gradient-to-r from-red-500 via-pink-400 to-pink-700 text-transparent bg-clip-text animate-gradient bg-300%">{matchPercentage}%</div>
+          <div className="text-2xl mb-5 text-center">
+            {firstName} & {secondName}
+          </div>
+          <div className="text-8xl my-5 font-bold bg-gradient-to-r from-red-500 via-pink-400 to-pink-700 text-transparent bg-clip-text animate-gradient bg-300%">
+            {matchPercentage}%
+          </div>
           <motion.button
             onClick={() => {
               setShowResult(false);
