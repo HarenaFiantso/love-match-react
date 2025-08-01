@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { isValidName, calculateLoveMatch } from '../logic/loveMatch';
+import { isValidName, calculateLoveMatch } from '../helpers/utils';
 
 export default function LoveForm() {
   const [firstName, setFirstName] = useState('');
