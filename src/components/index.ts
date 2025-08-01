@@ -1,2 +1,2 @@
-export { default as LoveForms } from './LoveForms';
+export { default as LoveForm } from './LoveForm';
 export { default as AppBackground } from './AppBackground';

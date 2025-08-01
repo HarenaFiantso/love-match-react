@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { isValidName, calculateLoveMatch } from '../logic/loveMatch';
 
-export default function LoveForms() {
+export default function LoveForm() {
   const [firstName, setFirstName] = useState('');
   const [secondName, setSecondName] = useState('');
   const [matchPercentage, setMatchPercentage] = useState<string | null>(null);
