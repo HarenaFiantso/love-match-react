@@ -21,7 +21,7 @@ L'utilisateur entre deux prénoms, clique sur un bouton, et l'application lui af
 
 ## Installation
 ```bash
-git clone https://github.com/ton-utilisateur/love-match-react.git
+git clone https://github.com/HarenaFiantso/love-match-react.git
 cd love-match-react
 npm install
 npm run dev
