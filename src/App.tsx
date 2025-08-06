@@ -1,10 +1,11 @@
-import { SplitText } from './components';
+// import { SplitText } from './components';
+import { Form  } from "./components";
 
 export default function App() {
   return (
     <main className="w-full h-screen flex items-center justify-center">
-      <SplitText
-        text="Hello les k4, how are you?"
+      {/* <SplitText
+        text="Love match"
         className="text-5xl font-semibold text-center"
         delay={100}
         duration={0.6}
@@ -15,7 +16,9 @@ export default function App() {
         threshold={0.1}
         rootMargin="-100px"
         textAlign="center"
-      />
+      /> */}
+    
+    <Form />
     </main>
   );
 }
