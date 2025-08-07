@@ -6,7 +6,7 @@ Construite avec **React + TypeScript**, cette app est idéale pour apprendre à 
 L'utilisateur entre deux prénoms, clique sur un bouton, et l'application lui affiche un **taux de compatibilité aléatoire**, accompagné d’un petit message hehe. Voici un exemple de UI:
 
 ![Screenshot](./public/preview.png)
-
+y
 ## Fonctionnalités
 - 🎯 Test de compatibilité entre deux prénoms
 - 🔢 Score de 0 à 100%, généré de façon aléatoire (pour le moment, don't worry)
